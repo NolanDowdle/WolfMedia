@@ -40,11 +40,11 @@ public class Application {
             // Based on the tester, the database connection is set-up differently (e.g., tunnel vs VPN)
             //   It does not impact the functionality of our project at all
             String testName = InputUtil.getString("Who is testing?");
-            if (testName.equals("John")) {
-                conn = dbManager.getConnection("127.0.0.1", 3306, "jgfagan", "jgfagan", "200242966");
-            } else {
-                conn = dbManager.getConnection("classdb2.csc.ncsu.edu", 3306, "jgfagan", "jgfagan", "200242966");
-            }
+            //if (testName.equals()) {
+                //
+            //} else {
+                //
+            //}
             String askForMoreInput = "N";
             do {
                 // Ask which operation the user would like to perform
